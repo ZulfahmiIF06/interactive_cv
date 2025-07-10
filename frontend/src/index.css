@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*hero section*/
+
+.herobody {
+  height: 100vh;
+  background: linear-gradient(to bottom, #ce0d0d, #1e1e2f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card {
+  background: #2e2e3d;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #2e2e3d;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.role {
+  background: #ce0d0d;
+  padding: 5px 15px;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+/*about*/
+.about-section {
+  padding: 60px 20px;
+  background-color: #2c2c2c;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  max-width: 1200px;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-image .image-border {
+  position: relative;
+  padding: 10px;
+  border: 10px solid #ce0d0d;
+  display: inline-block;
+}
+
+.about-image img {
+  display: block;
+  width: 300px;
+  height: auto;
+  border: 10px solid #2c2c2c;
+  background-color: #fff;
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.about-content .underline {
+  width: 60px;
+  height: 4px;
+  background-color:#ce0d0d;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+  text-align: center;
+  border: 2px solid #ce0d0d;
+}
+
+.hire {
+  background-color: #ce0d0d;
+  color: #2c2c2c;
+}
+
+.hire:hover {
+  background-color: #ce0d0d;
+}
+
+.download {
+  background-color: transparent;
+  color:#ce0d0d;
+}
+
+.download:hover {
+  background-color: #ce0d0d;
+  color: #2c2c2c;
+}
+
+/*skills*/
+#skill{
+  background-color: #2c2c2c;
+}
+
+/*Education*/
+#education{
+  background-color: #2c2c2c;
+}
