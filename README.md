@@ -1,2 +1,2 @@
 # interactive_cv
-"Website portofolio pribadi dibangun dengan Vue.js, Express, dan Vercel."
+"Website portofolio pribadi dibangun dengan React.js, Express, dan Vercel."
