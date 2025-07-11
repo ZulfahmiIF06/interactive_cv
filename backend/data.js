@@ -7,7 +7,7 @@ const educationHistory = [
     year: "2023 - 2026",
   },
     {
-    school: "Universitas 123",
+    school: "Universitas Gajah Mada",
     major: "S2-Informatika",
     year: "2027 - 2029",
   },
@@ -16,6 +16,8 @@ const educationHistory = [
 const skills = [
   { name: "React.js", level: "Mahir" },
   { name: "JavaScript", level: "Mahir" },
+  { name: "Vue.js", level: "Menengah" },
+  { name: "Python", level: "Menengah" },
 ];
 
 const projects = [
@@ -26,7 +28,7 @@ const projects = [
     tech: ["Vue.js", "Express.js", "PostgreSQL"],
     link: "#",
   },
-    {
+  {
     title: "Website Profile",
     image: 'http://localhost:3000/img/gambar4.png',
     description: "Profile website cv",
